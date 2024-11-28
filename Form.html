@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="form php">
+        <input type="text" placeholder="enter your name" value="Ankita Patel" readonly name="fname" >
+        <br><br>
+
+        <input type="email" size="80" placeholder="enter your email" name="email">
+        <br><br>
+
+        <input type="password" autofocus placeholder="enter your password" maxlength="6" name="pass">
+        <br><br>
+
+        <input type="tel" placeholder="enter your mobile no." maxlength="10" name="mobile"ko>
+        <br><br>
+
+        <input type="number" placeholder="enter your age" step="5" name="age">
+        <br><br>
+
+        <span>Birth of Date : </span>ko
+        <input type="date" name="bod" required>
+        <br><br>
+
+        <span>Appointment Time : </span>
+        <input type="time" name="apt">
+        <br><br>
+
+        <span>Resume : </span>
+        <input type="file" accept="audio/*" name="resume" multiple>
+        <br><br>
+
+        <select name="country">
+            <option value="0">--Select Country--</option>
+            <option value="in">India</option>
+            <option value="ca">Canada</option>
+            <option value="uk">UK</option>
+        </select>
+
+
+        <!-- Select Country
+        <input list="Country">
+        <datalist id="Country">
+            <option value="India">
+            <option value="Canada">
+            <option value="uk">
+        </datalist> -->
+
+
+        <br><br>
+
+        <textarea rows="5" cols="51" placeholder="enter address" name="address"></textarea>
+        <br><br>
+
+        <input type="radio" value="male" name="gender"><span>Male</span>
+        <input type="radio" value="female" name="gender"><span>Female</span>
+        <br><br>
+
+        <input type="checkbox" value="true" name="terms"><span>Terms & Conditions</span>
+        <br><br>
+
+        <input type="submit" value="login">
+    </form>
+</body>
+</html>
